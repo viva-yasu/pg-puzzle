@@ -1,4 +1,4 @@
-module Cleaning_robot
+module CleaningRobot
   N = 12
 
   def self.move(log)
@@ -17,4 +17,4 @@ module Cleaning_robot
   end
 end
 
-puts move([[0, 0]])
+puts CleaningRobot.move([[0, 0]])
